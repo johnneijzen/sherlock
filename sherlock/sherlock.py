@@ -29,7 +29,7 @@ from colorama import init
 from argparse import ArgumentTypeError
 
 module_name = "Sherlock: Find Usernames Across Social Networks"
-__version__ = "0.14.3"
+__version__ = "0.14.4"
 
 
 class SherlockFuturesSession(FuturesSession):
