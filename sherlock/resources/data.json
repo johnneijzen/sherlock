@@ -121,7 +121,7 @@
     "username_claimed": "test"
   },
   "Archive.org": {
-    "errorMsg": "cannot find account",
+    "errorMsg": "provided user does not exists or not authorized to execute request",
     "errorType": "message",
     "url": "https://archive.org/details/@{}",
     "urlMain": "https://archive.org",
@@ -447,14 +447,6 @@
     "urlMain": "https://codepen.io/",
     "username_claimed": "blue"
   },
-  "Coders Rank": {
-    "errorMsg": "not a registered member",
-    "errorType": "message",
-    "regexCheck": "^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$",
-    "url": "https://profile.codersrank.io/user/{}/",
-    "urlMain": "https://codersrank.io/",
-    "username_claimed": "rootkit7628"
-  },
   "Coderwall": {
     "errorType": "status_code",
     "url": "https://coderwall.com/{}",
@@ -681,19 +673,6 @@
     "urlMain": "https://www.finanzfrage.net/",
     "username_claimed": "finanzfrage"
   },
-  "Fiverr": {
-    "errorMsg": "\"status\":\"success\"",
-    "errorType": "message",
-    "regexCheck": "^[A-Za-z][A-Za-z\\d_]{5,14}$",
-    "request_method": "POST",
-    "request_payload": {
-      "username": "{}"
-    },
-    "url": "https://www.fiverr.com/{}",
-    "urlMain": "https://www.fiverr.com/",
-    "urlProbe": "https://www.fiverr.com/validate_username",
-    "username_claimed": "blueman"
-  },
   "Flickr": {
     "errorType": "status_code",
     "url": "https://www.flickr.com/people/{}",
@@ -763,14 +742,6 @@
     "url": "https://freesound.org/people/{}/",
     "urlMain": "https://freesound.org/",
     "username_claimed": "blue"
-  },
-  "G2G": {
-    "errorType": "response_url",
-    "errorUrl": "https://www.g2g.com/{}",
-    "regexCheck": "^[A-Za-z][A-Za-z0-9_]{2,11}$",
-    "url": "https://www.g2g.com/{}",
-    "urlMain": "https://www.g2g.com/",
-    "username_claimed": "user"
   },
   "GNOME VCS": {
     "errorType": "response_url",
@@ -1193,12 +1164,6 @@
     "urlMain": "https://lichess.org",
     "username_claimed": "blue"
   },
-  "Linktree": {
-    "errorType": "status_code",
-    "url": "https://linktr.ee/{}",
-    "urlMain": "https://linktr.ee/",
-    "username_claimed": "anne"
-  },
   "Listed": {
     "errorType": "response_url",
     "errorUrl": "https://listed.to/@{}",
@@ -1326,20 +1291,6 @@
     "urlMain": "https://www.native-instruments.com/forum/",
     "username_claimed": "jambert"
   },
-  "NationStates Nation": {
-    "errorMsg": "Was this your nation? It may have ceased to exist due to inactivity, but can rise again!",
-    "errorType": "message",
-    "url": "https://nationstates.net/nation={}",
-    "urlMain": "https://nationstates.net",
-    "username_claimed": "the_holy_principality_of_saint_mark"
-  },
-  "NationStates Region": {
-    "errorMsg": "does not exist.",
-    "errorType": "message",
-    "url": "https://nationstates.net/region={}",
-    "urlMain": "https://nationstates.net",
-    "username_claimed": "the_west_pacific"
-  },
   "Naver": {
     "errorType": "status_code",
     "url": "https://blog.naver.com/{}",
@@ -1416,12 +1367,6 @@
     "url": "https://opensource.com/users/{}",
     "urlMain": "https://opensource.com/",
     "username_claimed": "red"
-  },
-  "Oracle Community": {
-    "errorType": "status_code",
-    "url": "https://community.oracle.com/people/{}",
-    "urlMain": "https://community.oracle.com",
-    "username_claimed": "dev"
   },
   "OurDJTalk": {
     "errorMsg": "The specified member cannot be found",
@@ -1785,13 +1730,6 @@
     "url": "https://sourceforge.net/u/{}",
     "urlMain": "https://sourceforge.net/",
     "username_claimed": "blue"
-  },
-  "SoylentNews": {
-    "errorMsg": "The user you requested does not exist, no matter how much you wish this might be the case.",
-    "errorType": "message",
-    "url": "https://soylentnews.org/~{}",
-    "urlMain": "https://soylentnews.org",
-    "username_claimed": "adam"
   },
   "Speedrun.com": {
     "errorMsg": "Not found",
@@ -2397,13 +2335,6 @@
     "url": "https://jbzd.com.pl/uzytkownik/{}",
     "urlMain": "https://jbzd.com.pl/",
     "username_claimed": "blue"
-  },
-  "jeuxvideo": {
-    "errorMsg": "Vous \u00eates",
-    "errorType": "message",
-    "url": "http://www.jeuxvideo.com/profil/{}?mode=infos",
-    "urlMain": "http://www.jeuxvideo.com",
-    "username_claimed": "adam"
   },
   "kofi": {
     "errorType": "response_url",
