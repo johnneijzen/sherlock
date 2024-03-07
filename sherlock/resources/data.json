@@ -1,11 +1,5 @@
 {
-  "2Dimensions": {
-    "errorType": "status_code",
-    "url": "https://2Dimensions.com/a/{}",
-    "urlMain": "https://2Dimensions.com/",
-    "username_claimed": "blue"
-  },
-  "3dnews": {
+   "3dnews": {
     "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d \u0438 \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u043f\u0440\u043e\u0444\u0438\u043b\u044f \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430.",
     "errorType": "message",
     "url": "http://forum.3dnews.ru/member.php?username={}",
@@ -18,26 +12,11 @@
     "urlMain": "https://www.7cups.com/",
     "username_claimed": "blue"
   },
-  "8tracks": {
-    "errorMsg": "This page has vanished",
-    "errorType": "message",
-    "url": "https://8tracks.com/{}",
-    "urlMain": "https://8tracks.com/",
-    "username_claimed": "blue"
-  },
   "9GAG": {
     "errorType": "status_code",
     "url": "https://www.9gag.com/u/{}",
     "urlMain": "https://www.9gag.com/",
     "username_claimed": "blue"
-  },
-  "APClips": {
-    "errorMsg": "Amateur Porn Content Creators",
-    "errorType": "message",
-    "isNSFW": true,
-    "url": "https://apclips.com/{}",
-    "urlMain": "https://apclips.com/",
-    "username_claimed": "onlybbyraq"
   },
   "About.me": {
     "errorType": "status_code",
@@ -201,6 +180,12 @@
     "urlMain": "https://blip.fm/",
     "username_claimed": "blue"
   },
+  "Blipfoto": {
+    "errorType": "status_code",
+    "url": "https://www.blipfoto.com/{}",
+    "urlMain": "https://www.blipfoto.com/",
+    "username_claimed": "blue"
+  },
   "BOOTH": {
     "errorType": "response_url",
     "errorUrl": "https://booth.pm/",
@@ -318,13 +303,6 @@
     "errorType": "status_code",
     "url": "https://buzzfeed.com/{}",
     "urlMain": "https://buzzfeed.com/",
-    "username_claimed": "blue"
-  },
-  "CGTrader": {
-    "errorMsg": "3D models for CG digital design and artwork",
-    "errorType": "message",
-    "url": "https://www.cgtrader.com/{}",
-    "urlMain": "https://www.cgtrader.com",
     "username_claimed": "blue"
   },
   "CNET": {
@@ -589,6 +567,13 @@
     "url": "https://www.discogs.com/user/{}",
     "urlMain": "https://www.discogs.com/",
     "username_claimed": "blue"
+  },
+  "Discord": {
+    "errorMsg": "\"status\":2",
+    "errorType": "message",
+    "url": "https://api.lixqa.de/v3/discord/pomelo/{}",
+    "urlMain": "https://www.discord.com/",
+    "username_claimed": "thewever"
   },
   "Discuss.Elastic.co": {
     "errorType": "status_code",
@@ -986,14 +971,6 @@
     "urlMain": "https://hashnode.com",
     "username_claimed": "blue"
   },
-  "Heavy-R": {
-    "errorMsg": "Channel not found",
-    "errorType": "message",
-    "isNSFW": true,
-    "url": "https://www.heavy-r.com/user/{}",
-    "urlMain": "https://www.heavy-r.com/",
-    "username_claimed": "kilroy222"
-  },
   "Holopin": {
     "errorMsg": "true",
     "errorType": "message",
@@ -1203,6 +1180,12 @@
     "urlMain": "https://letterboxd.com/",
     "username_claimed": "blue"
   },
+  "LibraryThing": {
+    "errorType": "status_code",
+    "url": "https://www.librarything.com/profile/{}",
+    "urlMain": "https://www.librarything.com/",
+    "username_claimed": "blue"
+  },
   "Lichess": {
     "errorMsg": "Page not found!",
     "errorType": "message",
@@ -1236,6 +1219,12 @@
     "url": "https://lobste.rs/u/{}",
     "urlMain": "https://lobste.rs/",
     "username_claimed": "jcs"
+  },
+  "League of Legends": {
+    "errorType": "status_code",
+    "url": "https://lolprofile.net/summoner/world/{}",
+    "urlMain": "https://lolprofile.net/",
+    "username_claimed": "Faker"
   },
   "LottieFiles": {
     "errorType": "status_code",
@@ -1291,13 +1280,6 @@
     "urlProbe": "https://api.mixcloud.com/{}/",
     "username_claimed": "jenny"
   },
-  "Modelhub": {
-    "errorType": "status_code",
-    "isNSFW": true,
-    "url": "https://www.modelhub.com/{}/videos",
-    "urlMain": "https://www.modelhub.com/",
-    "username_claimed": "secretcrush"
-  },
   "Monkeytype": {
     "errorType": "status_code",
     "url": "https://monkeytype.com/profile/{}",
@@ -1305,14 +1287,6 @@
     "urlProbe": "https://api.monkeytype.com/users/{}/profile",
     "username_claimed": "Lost_Arrow",
     "username_unclaimed": "noonewouldeverusethis7"
-  },
-  "Motherless": {
-    "errorMsg": "no longer a member",
-    "errorType": "message",
-    "isNSFW": true,
-    "url": "https://motherless.com/m/{}",
-    "urlMain": "https://motherless.com/",
-    "username_claimed": "hacker"
   },
   "Motorradfrage": {
     "errorType": "status_code",
@@ -1411,13 +1385,6 @@
     "url": "https://www.nintendolife.com/users/{}",
     "urlMain": "https://www.nintendolife.com/",
     "username_claimed": "goku"
-  },
-  "NitroType": {
-    "errorMsg": "<title>Nitro Type | Competitive Typing Game | Race Your Friends</title>",
-    "errorType": "message",
-    "url": "https://www.nitrotype.com/racer/{}",
-    "urlMain": "https://www.nitrotype.com/",
-    "username_claimed": "jianclash"
   },
   "NotABug.org": {
     "errorType": "status_code",
@@ -1684,6 +1651,15 @@
     "url": "https://rumble.com/user/{}",
     "urlMain": "https://rumble.com/",
     "username_claimed": "John"
+  },
+  "Rule34Paheal": {
+    "errorMsg": "If you typed the ID by hand, try again; if you came from a link on this site, it might be bug report time...",
+    "errorType": "message",
+    "isNSFW": true,
+    "url": "https://rule34.paheal.net/user/{}",
+    "urlMain": "https://rule34.paheal.net/",
+    "username_claimed": "John",
+    "username_unclaimed": "noonewouldeverusethis778"
   },
   "RuneScape": {
     "errorMsg": "{\"error\":\"NO_PROFILE\",\"loggedIn\":\"false\"}",
@@ -2015,7 +1991,7 @@
     "regexCheck": "^[a-zA-Z0-9_]{1,15}$",
     "url": "https://twitter.com/{}",
     "urlMain": "https://twitter.com/",
-    "urlProbe": "https://nitter.net/{}",
+    "urlProbe": "https://sotwe.com/search/{}",
     "username_claimed": "blue"
   },
   "Typeracer": {
@@ -2652,13 +2628,6 @@
     "urlMain": "https://wiki.vg/",
     "username_claimed": "Auri"
   },
-  "wykop.pl": {
-    "errorType": "status_code",
-    "regexCheck": "[a-z0-9-_]{4,35}",
-    "url": "https://www.wykop.pl/ludzie/{}",
-    "urlMain": "https://wykop.pl",
-    "username_claimed": "janusz-nowak"
-  },
   "xHamster": {
     "errorType": "status_code",
     "isNSFW": true,
@@ -2671,5 +2640,42 @@
     "url": "https://www.znanylekarz.pl/{}",
     "urlMain": "https://znanylekarz.pl",
     "username_claimed": "janusz-nowak"
+  },
+  "forexfactory": {
+    "errorType": "status_code",
+    "url": "https://www.forexfactory.com/{}",
+    "urlMain": "https://www.forexfactory.com/",
+    "username_claimed": "blue"
+  },
+  "metalsmine": {
+    "errorType": "status_code",
+    "url": "https://www.metalsmine.com/{}",
+    "urlMain": "https://www.metalsmine.com/",
+    "username_claimed": "blue"
+  },
+  "energyexch": {
+    "errorType": "status_code",
+    "url": "https://www.energyexch.com/{}",
+    "urlMain": "https://www.energyexch.com/",
+    "username_claimed": "blue"
+  },
+  "cryptocraft": {
+    "errorType": "status_code",
+    "url": "https://www.cryptocraft.com/{}",
+    "urlMain": "https://www.cryptocraft.com/",
+    "username_claimed": "blue"
+  },
+  "myfxbook": {
+    "errorType": "status_code",
+    "url": "https://www.myfxbook.com/members/{}",
+    "urlMain": "https://www.myfxbook.com/",
+    "username_claimed": "blue"
+  },
+  "rpgmaker.net": {
+    "errorMsg": "Page Not Found",
+    "errorType": "message",
+    "url": "https://rpgmaker.net/users/{}",
+    "urlMain": "https://rpgmaker.net/",
+    "username_claimed": "ryuxyro"
   }
 }
