@@ -29,7 +29,7 @@ from colorama import init
 from argparse import ArgumentTypeError
 
 module_name = "Sherlock: Find Usernames Across Social Networks"
-__version__ = "0.14.4"
+__version__ = "0.14.5"
 
 
 class SherlockFuturesSession(FuturesSession):
@@ -651,7 +651,7 @@ def main():
     # Check for newer version of Sherlock. If it exists, let the user know about it
     try:
         r = requests.get(
-            "https://raw.githubusercontent.com/sherlock-project/sherlock/master/sherlock/sherlock.py"
+            "https://raw.githubusercontent.com/johnneijzen/sherlock/master/sherlock/sherlock/sherlock.py""
         )
 
         remote_version = str(re.findall('__version__ = "(.*)"', r.text)[0])
